@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Scroll Animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Style Add -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="90" class="scrollspy-example" tabindex="0">
+
+    <!-- Headeer  -->
+
+    <header class="fixed-top bg-white shadow-sm py-3">
+        <!-- Header  -->
+        <div class="container ">
+            <div class="header__wraper d-flex align-items-center justify-content-between ">
+                <div class="header__logo">
+                    <img src="img/logo.png" alt="" class="img-fluid" width="140">
+                </div>
+                <nav
+                    class="header navbar navbar-expand-lg navbar-light navbar-floating navbar-sticky  navbar-fixed-top    ">
+                    <div class="container px-0 px-xl-3">
+
+                        <button class="navbar-toggler shadow-none  ms-n2 me-2 order-2" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#primaryMenu">
+
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+
+
+                        <div class="offcanvas offcanvas-start order-lg-2" id="primaryMenu">
+                            <div class="offcanvas-header navbar-shadow">
+                                <img src="img/logo-bg-remove.png" alt="" width="110">
+                                <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body  ">
+                                <div class=" w-100 d-flex   ">
+
+                                    <ul class="nav  navbar-nav py-2 mt-1 ">
+                                        <li class="nav-item    text-capitalize  px-3       "><a class="nav-link  "
+                                                href="#home">Home</a>
+                                        </li>
+                                        <li class="nav-item  text-capitalize  px-3      "><a class="nav-link"
+                                                href="#about">
+                                                About Us
+
+                                            </a></li>
+                                        <li class="nav-item  text-capitalize  px-3      "><a class="nav-link"
+                                                href="#service">
+                                                Services
+
+                                            </a></li>
+                                        <li class="nav-item   text-capitalize  px-3      "><a class="nav-link"
+                                                href="#work">
+                                                Work
+                                            </a></li>
+                                      
+                                        <li class="nav-item    text-capitalize  px-3     "><a class="nav-link"
+                                                href="#test">
+                                                Testimonial
+                                            </a></li>
+                                        </li>
+                                        <li class="nav-item    text-capitalize  px-3     "><a class="nav-link"
+                                                href="#contact">
+                                                Testimonial
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                </nav>
+            </div>
+        </div>
+        <!-- /Header  -->
+    </header>
+    <!-- / Header   -->
+
+    <!-- Banner  -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner__wraper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="banner__info">
+                            <h1>Crafting Stunning Websites <br>with an Unparalleled User Experience. </h1>
+                            <h4>
+                                Elevate your online presence with our exceptional web design and development services.
+                            </h4>
+                            <a href="#" class="btn">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/5995345-removebg-preview.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Banner -->
+
+    <!-- About  -->
+
+    <section class="about  margin" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about__info">
+                        <h4>About Us</h4>
+                        <h2>Leading the way in Creative <br> Digital Agency</h2>
+                        <div class="bar"></div>
+                        <p>
+                            Your one-stop solution for all your digital needs. We are a dynamic and innovative startup
+                            that specializes in providing top-notch services in web design, web development, responsive
+                            websites, logo design, and video advertisement. With our team of skilled professionals, we
+                            strive to deliver exceptional results that exceed our clients' expectations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about__img">
+                        <img src="img/about2.01166b2e.jpg" alt="" class="img-fluid one">
+                        <img src="img/about1.07dcdda2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /About -->
+    <!-- Services  -->
+    <section class="service margin" id="service">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="service__card mx-auto active" style="max-width: 400px;">
+                        <div class="icon">
+                            <i class="line-icon-Mail"></i>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="info">
+                            <h2>Web Design</h2>
+                            <p>Crafting Beautiful and Intuitive Websites Tailored to Your Brand
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service__card mx-auto" style="max-width: 400px;">
+                        <div class="icon">
+                            <i class="line-icon-Cloud"></i>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="info">
+                            <h2>Web Development</h2>
+                            <p>Building Customized and Scalable Web Solutions to Meet Your Business Goals
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service__card mx-auto" style="max-width: 400px;">
+                        <div class="icon">
+                            <i class="line-icon-Video"></i>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="info">
+                            <h2>Advertisement Video:</h2>
+                            <p>Engage Your Audience with Captivating Video Advertisements.
+                            </p>
+                        </div>
+                        <div class="bg-parttern">
+                            <img src="img/bgdots.png" alt="" class="img-fluid one">
+                            <img src="img/bgdots2.png" alt="" class="img-fluid two">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service__card mx-auto" style="max-width: 400px;">
+                        <div class="icon">
+                            <i class="line-icon-Video"></i>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="info">
+                            <h2>Logo Design</h2>
+                            <p> Creating Unique and Memorable Logos That Define Your Brand Identity
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service__card mx-auto" style="max-width: 400px;">
+                        <div class="icon">
+                            <i class="line-icon-Video"></i>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="info">
+                            <h2>Advertisement Video:</h2>
+                            <p>Engage Your Audience with Captivating Video Advertisements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Services -->
+
+    <!-- Work -->
+    <section class="work margin" id="work">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-7">
+                    <h3>How We Works!</h3>
+                    <p class="py-4">
+                        Don’t settle: Don’t finish crappy books. If you don’t like the menu, leave the restaurant. If
+                        you’re not on the right path, get off it.
+                    </p>
+                </div>
+                <div class="col-lg-6  ">
+
+
+                    <div class="work__card d-flex align-items-center justify-content-between" data-aoupfade-up
+                        data-aos-duration="1000">
+                        <div class="icon me-5 ">
+                            <img src="img/work1.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>Briefing from the Client</h4>
+                            <p>We start by listening to our clients carefully. We believe that understanding their
+                                requirements, goals, and vision
+                                is crucial for a successful project. .</p>
+                        </div>
+                    </div>
+                    <div class="work__card d-flex align-items-center justify-content-between mt-4" data-aoupfade-up
+                        data-aos-duration="1600">
+                        <div class="icon me-5 ">
+                            <img src="img/work2.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>R&D (Research and Development):</h4>
+                            <p> Once we have a clear understanding of our client's needs, we embark on extensive
+                                research and analysis. </p>
+                        </div>
+                    </div>
+                    <div class="work__card d-flex align-items-center justify-content-between mt-4" data-aoupfade-up
+                        data-aos-duration="2000">
+                        <div class="icon me-5 ">
+                            <img src="img/work3.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>Planning</h4>
+                            <p>Based on the insights gained during the briefing and research phase, we formulate a
+                                comprehensive plan. </p>
+                        </div>
+                    </div>
+                    <div class="work__card d-flex align-items-center justify-content-between mt-4" data-aoupfade-up
+                        data-aos-duration="2000">
+                        <div class="icon me-5 ">
+                            <img src="img/work3.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>Design</h4>
+                            <p>With the planning phase completed, our talented designers take the lead in crafting
+                                visually appealing and
+                                user-centric designs. They combine creativity with a deep understanding of user
+                                experience (UX) principles
+                                to create intuitive interfaces that engage and captivate visitors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 p-4">
+                    <div class="work__card d-flex align-items-center justify-content-between mt-4" data-aoupfade-up
+                        data-aos-duration="2000">
+                        <div class="icon me-5 ">
+                            <img src="img/work3.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>Development</h4>
+                            <p>Our skilled developers leverage the latest web technologies and coding standards to build
+                                a powerful and
+                                scalable website.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work__card d-flex align-items-center justify-content-between mt-4" data-aoupfade-up
+                        data-aos-duration="2000">
+                        <div class="icon me-5 ">
+                            <img src="img/work3.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>Testing</h4>
+                            <p>Quality assurance is of paramount importance to us. We perform comprehensive
+                                functionality tests,
+                                compatibility checks, and usability evaluations to ensure a flawless end product.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work__card d-flex align-items-center justify-content-between mt-4" data-aoupfade-up
+                        data-aos-duration="2000">
+                        <div class="icon me-5 ">
+                            <img src="img/work3.png" alt="" width="60">
+                        </div>
+                        <div class="info d-flex  flex-column">
+                            <h4>Delivery</h4>
+                            <p>Once we have completed the development and testing phases, we prepare for a successful
+                                launch. We deploy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /Work -->
+
+    <!-- projects  -->
+    <section class="projects" id="work">
+        <div class="container">
+            <h4>Our Completed Project</h4>
+            <h2>Recent Projects</h2>
+            <div class="bar"></div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="project__card">
+                        <div class="project__prev">
+                            <img src="img/Screenshot (773).png" alt="" class="img-fluid">
+                        </div>
+                        <div class="project__detail">
+                            <a href="#">View Project <i class="line-icon-Right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /projects  -->
+    <!-- Testimonial -->
+    <section class="testimonial" id="test">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex align-items-center justify-content-between p-3">
+                    <div class="bx">
+                        <h1>Thousands Clients Rated <br> Us 5 Star</h1>
+                        <p class="mt-4">
+                            Don't settle: Don't finish crappy books.If leave restaurant you're not on.
+                        </p>
+                        <div class="nav-btn  position-relative mt-5 pt-5">
+                            <div class="swiper-button-prev"> <i class="fa fa-arrow-left"></i></div>
+                            <div class="swiper-button-next"> <i class="fa fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="bx">
+
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="swiper certi-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="test__card">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aperiam
+                                        laboriosam culpa. Provident, veniam. Voluptatibus quod minima eius ullam minus.
+                                    </p>
+                                    <div class="d-flex align-items-center"> <span class="me-3">Lina</span>
+                                        <div class="start"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Testimonial -->
+
+
+    <!-- Contact  -->
+    <section class="contact margin" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h4>Lets Talk</h4>
+                <h1>Get In Touch</h1>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-6">
+
+                    <form action="" class="row g-4">
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea name="" id="" cols="20" rows="7" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-lg-5">
+                            <a href="#" class="btn"> Submit Message</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>DigitalSoftgrow</h5>
+                    <p class="w-75 mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel ut adipisci molestiae
+                        fugit eum omnis nobis iste beatae autem? <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel ut adipisci
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>BASIC LINKS</h4>
+                            <div class="bar"></div>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h4>Contact Details</h4>
+                            <div class="bar"></div>
+                            <div class="bx">
+                                <span>Mobile</span>
+                                <p class="m-0 p-0">+91 1234567890</p>
+                                <p class="m-0 p-0">+91 1234567890</p>
+                            </div>
+                            <div class="bx mt-1">
+                                <span>Email</span>
+                                <p class="m-0 p-0">Example.@gmail.com</p>
+                            </div>
+                            <div class="bx mt-1">
+                                <span>Address</span>
+                                <p class="m-0 p-0">10/2, Middle Street, New York</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Social Media</h4>
+                            <div class="bar"></div>
+                            <div class="icon">
+                                <i class="line-icon-Facebook"></i>
+                                <i class="line-icon-Instagram"></i>
+                                <i class="line-icon-Mail"></i>
+                                <i class="line-icon-Twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy mt-5">
+                <h6>© All Rights Reserved By DigitalSoftgrow</h6>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- /Footer -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+<script>
+
+    var myClients = new Swiper(".certi-slider", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoHeight: true,
+        autoplay: {
+            delay: 2000,
+        },
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+        },
+        breakpoints: {
+            "1000": {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            "800": {
+                slidesPerView: 1,
+                spaceBetween: 0,
+            },
+        }
+    });
+</script>
+
+</html>
